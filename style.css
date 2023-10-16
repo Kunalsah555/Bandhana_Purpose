@@ -35,12 +35,11 @@ body {
   padding: 0;
   border-radius: 5%;
 }
-.para{
+/* .para{
   /* font-weight: bolder; */
-  font-family: 'Zeyada';
-  color: rgb(0, 0, 100);
+  /* font-family: 'Zeyada';
   font-size: 3vh;
-}
+} */ */
 
 .paper.image {
   padding: 10px;
@@ -52,6 +51,11 @@ body {
 .paper .first{
   min-width: 97vw;
 }
+.hh1{
+  opacity: 0.6;
+  width: 50%;
+  height: 50%;
+}
 
 img {
  /* max-height: 200px;*/
@@ -61,7 +65,7 @@ img {
 
 .paper.heart::after {
   content: "";
-  background-image: url('https://cdn.pixabay.com/photo/2016/03/31/19/25/cartoon-1294994__340.png');
+ 
   width: 100%;
   height: 100%;
   position: absolute;
@@ -70,15 +74,16 @@ img {
   background-size: 150px;
   background-position: center center;
   background-repeat: no-repeat;
-  opacity: 0.6;
 }
 
-p {
+.paper p {
   font-family: 'Zeyada';
   font-size: 3vh;
-  color: black;
-  opacity: 0.75;
+  text-shadow: 4px 4px 10px;
+  opacity: 1;
   user-select: none;
+  color: #dc143c;
+  font-weight: bold;
+  letter-spacing: 10px;
 
-  // filter: drop-shadow(2px 1.5px 1px rgba(0,0,105,0.9));
 }
